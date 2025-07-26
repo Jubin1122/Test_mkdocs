@@ -1,0 +1,16 @@
+site_name: ML Project Docs
+theme:
+  name: readthedocs
+
+nav:
+  - Home: index.md
+  - Data:
+      - Load & Split: data.md
+  - Preprocessing: preprocessing.md
+  - Modeling: models.md
+  - Utilities: utils.md
+  - Quickstart: usage.md
+
+plugins:
+  - mkdocstrings:
+      default_handler: python
